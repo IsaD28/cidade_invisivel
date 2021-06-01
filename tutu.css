@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #03010183;
+    background-image: url("img/Tutu.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #000000AA;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.links ul {
+    gap: 1px;
+    list-style-type: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 0.25s;
+}
+
+.links a:hover {
+    color: #de0611;
+}
+
+main {
+    font-family: 'Karla', Helvetica, Arial, sans-serif;
+    padding: 20vh 8vw;
+    flex-grow: 1;
+}
+
+main h1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+main .lenda {
+    display: flex;
+    flex-direction: row;
+    padding: 0vh 2vw;
+}
+
+main h2 {
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-90deg);
+    margin-top: 50px;
+    color: #D81F26;
+}
+
+main p {
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    max-width: 425px;
+}
+
+.infos {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    padding: 0vh 1vw;
+    margin-top: 40px;
+}
+
+.infos h3{
+    font-size: 25px;
+}
+
+.infos p {
+    font-size: 18px;
+}
+
+.ator {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #D81F26;
+}
+
+.personagem{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #D81F26;
+}
+
+.entidade {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    height: 40px;
+}
