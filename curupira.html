@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="curupira.css">
+    <link rel="stylesheet" href="dropdown-menu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,10 +18,18 @@
             <img src="img/netflix.png" altl="logo Netflix">
         </a>
         <nav class="links">
-            <ul>
-                <li><a href="https://isad28.github.io/cidade_invisivel/" target="_blank" >Home</a></li>
-                <li><a href="#">Lendas</a></li>
-                <li><a href="#">Trailer</a></li>
+            <ul class="dropdown-menu">
+                <li><a href="https://isad28.github.io/cidade_invisivel/">Home</a></li>
+                <li><a href="#">Lendas ▼</a>
+                    <ul class="dropdown-submenu">
+                        <li><a href="curupira.html">Curupira</a></li>
+                        <li><a href="saci.html">Saci-Pererê</a></li>
+                        <li><a href="#">Cuca</a></li>
+                        <li><a href="iara.html">Iara</a></li>
+                        <li><a href="#">Tutu</a></li>
+                    </ul> 
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=GodwQKNXIYk">Trailer</a></li>
                 <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
