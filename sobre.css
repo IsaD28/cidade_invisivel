@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: #000000AA;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ main {
 
 main h1 {
     font-family: 'Londrina Outline', cursive;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 500;
     padding-left: 30px;
     margin-bottom: 5px;
@@ -78,7 +78,7 @@ main h2 {
 }
 
 main p {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 200;
     font-style: italic;
     max-width: 425px;
@@ -125,5 +125,5 @@ main p {
 footer {
     text-align: center;
     font-style: italic;
-    height: 40px;
+    height: 30px;
 }
